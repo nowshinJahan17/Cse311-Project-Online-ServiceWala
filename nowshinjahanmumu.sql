@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 09, 2019 at 06:34 PM
+-- Generation Time: june 09, 2022 at 06:34 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.10
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `newosms`
+-- Database: `OnlineService`
 --
 
 -- --------------------------------------------------------
@@ -40,7 +40,7 @@ CREATE TABLE `adminlogin_tb` (
 --
 
 INSERT INTO `adminlogin_tb` (`a_login_id`, `a_name`, `a_email`, `a_password`) VALUES
-(1, 'Admin', 'admin@osms.com', '123456');
+(1, 'nowshin', 'nowshin@gmail.com', '123456');
 
 -- --------------------------------------------------------
 
@@ -94,8 +94,8 @@ CREATE TABLE `assignwork_tb` (
 --
 
 INSERT INTO `assignwork_tb` (`rno`, `request_id`, `request_info`, `request_desc`, `requester_name`, `requester_add1`, `requester_add2`, `requester_city`, `requester_state`, `requester_zip`, `requester_email`, `requester_mobile`, `assign_tech`, `assign_date`) VALUES
-(2, 4, 'Mobile is not working', 'Mobile is not working i dont know why', 'Rani', 'Ranibagh', 'Address line something', 'Ranchi', 'Jh', 456787, 'user@osms.com', 98456653, 'Raja', '2019-11-07'),
-(3, 5, 'Rode mic is not working', 'due to wrong handling', 'Raj', '123', 'Railway COlony', 'Ranchi', 'Jh', 234567, 'user@osms.com', 23435453, 'Sonam', '2019-11-08');
+(2, 4, 'Mobile is not working', 'Mobile is not working i dont know why', 'Rana', 'Ranibagh', 'Address line something', 'Ran', 'Jh', 456787, 'user@gmail.com', 98456653, 'Raja', '2019-11-07'),
+(3, 5, 'Rode mic is not working', 'due to wrong handling', 'Raj', '123', 'dhaka', 'Ranchi', 'Jh', 234567, 'user@gmail.com', 23435453, 'mumu', '2019-11-08');
 
 -- --------------------------------------------------------
 
@@ -119,7 +119,7 @@ CREATE TABLE `customer_tb` (
 --
 
 INSERT INTO `customer_tb` (`custid`, `custname`, `custadd`, `cpname`, `cpquantity`, `cpeach`, `cptotal`, `cpdate`) VALUES
-(1, 'Rohan', 'Kolkata', 'Keyboard', 2, 3000, 6000, '2019-11-09');
+(1, 'nowshin', 'dhaka', 'Keyboard', 2, 3000, 6000, '2019-11-09');
 
 -- --------------------------------------------------------
 
@@ -139,11 +139,11 @@ CREATE TABLE `requesterlogin_tb` (
 --
 
 INSERT INTO `requesterlogin_tb` (`r_login_id`, `r_name`, `r_email`, `r_password`) VALUES
-(5, 'User', 'user@osms.com', '123456'),
-(9, 'Sonam', 'sonam@osms.com', '1234567'),
-(10, 'John', 'john@osms.com', '1234'),
-(11, 'Sumit', 'sumit@osms.com', '123456'),
-(14, 'New User', 'newuser@osms.com', '123456');
+(5, 'User', 'user@gmail.com', '123456'),
+(9, 'Suiy', 'sonam@gmail.com', '1234567'),
+(10, 'John', 'john@gmail.com', '1234'),
+(11, 'Sumit', 'sumit@gmail.com', '123456'),
+(14, 'hju', 'newuser@gmail.com', '123456');
 
 -- --------------------------------------------------------
 
@@ -171,7 +171,7 @@ CREATE TABLE `submitrequest_tb` (
 --
 
 INSERT INTO `submitrequest_tb` (`request_id`, `request_info`, `request_desc`, `requester_name`, `requester_add1`, `requester_add2`, `requester_city`, `requester_state`, `requester_zip`, `requester_email`, `requester_mobile`, `request_date`) VALUES
-(2, 'Reuqest Demo', 'Demo desc', 'Raj', 'Add1', 'Add2', 'Kolkata', 'WB', 435678, 'user@osms.com', 344654545, '2019-10-30');
+(2, 'Reuqest Demo', 'Demo desc', 'Raj', 'Add1', 'Add2', 'dhaka', 'WB', 435678, 'user@gmail.com', 344654545, '2019-10-30');
 
 -- --------------------------------------------------------
 
@@ -192,8 +192,8 @@ CREATE TABLE `technician_tb` (
 --
 
 INSERT INTO `technician_tb` (`empid`, `empName`, `empCity`, `empMobile`, `empEmail`) VALUES
-(2, 'Sonam', 'Mumbai', 444111, 'sonam@osms.com'),
-(3, 'Raja', 'Kolkata', 999111, 'raja@osms.com');
+(2, 'mumu', 'dhaka', 444111, 'mumu@gmail.com'),
+(3, 'Raja', 'tongi', 999111, 'raja@gmail.com');
 
 --
 -- Indexes for dumped tables
